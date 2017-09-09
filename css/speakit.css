@@ -1,0 +1,73 @@
+body {
+    font-family:'Open Sans', Arial!important;
+}
+#home, #rates, #form {
+        background: url('/images/background.png') 100% 100% no-repeat;
+        background-size: cover;
+        color:white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 101%;
+        font-size: 22px;
+    }
+    #tagline {
+        position: absolute;
+        left: 44%;
+        top: 40%;
+    }
+    a {
+        text-decoration: none;
+    }
+    #orderButton{
+        background: white;
+        border-radius: 18px;
+        color: rgb(41, 180, 208);
+        font-size: 12px;
+        height: 30px;
+        /*font-weight: bold;*/
+        width: 54%;
+        padding-top: 7px;
+        text-align: center;
+    }
+    h3,h4 {
+        font-size: 22pt!important;
+        margin-top:90px!important;
+        margin-bottom: 34px!important;
+    }
+    h4,h5 {
+        color:white;
+    }
+    h5 {
+        font-size: 20pt!important;
+    }
+    h3 {
+        color:#23b1d0;
+    }
+    p, b, ul {
+        font-size: 11pt!important;
+    }
+    .navbar {
+        width: 90%;
+        margin-left:5%;
+    }
+    .profile:hover {
+        background:blue;
+        opacity:0.15;
+        -moz-opacity:0.15;
+        filter: alpha(opacity=15) blue;
+        -khtml-opacity: 1;
+        background-color:blue;
+
+    }
+
+    #rates {
+        text-align:center;
+    }
+    #form {
+        /*background: ;*/
+    }
+    .dark {
+        background: none;
+    }
